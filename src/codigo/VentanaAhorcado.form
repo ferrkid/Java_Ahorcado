@@ -27,13 +27,10 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" pref="1179" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel1" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" pref="247" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -80,8 +77,6 @@
                                       <Component id="jButton31" min="-2" pref="80" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jButton32" min="-2" pref="80" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jButton29" min="-2" pref="80" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -103,7 +98,7 @@
                               <Component id="jButton11" min="-2" pref="80" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="110" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -115,13 +110,13 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" pref="96" max="-2" attributes="0"/>
+              <EmptySpace pref="239" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="278" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" pref="247" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jButton3" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
                           <Component id="jButton4" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
@@ -159,11 +154,10 @@
                           <Component id="jButton30" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
                           <Component id="jButton31" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
                           <Component id="jButton32" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
-                          <Component id="jButton29" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="298" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -380,7 +374,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="P"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -392,7 +386,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="Q"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -404,7 +398,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="R"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -416,7 +410,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="S"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -428,7 +422,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="T"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -440,7 +434,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="U"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -452,7 +446,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="V"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -464,23 +458,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="W"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton28ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton29">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="24" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
-        <Property name="focusable" type="boolean" value="false"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton29ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton30">
@@ -488,7 +470,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="X"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -500,7 +482,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="Y"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -512,7 +494,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="text" type="java.lang.String" value="Z"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
       <Events>

@@ -57,7 +57,6 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         jButton26 = new javax.swing.JButton();
         jButton27 = new javax.swing.JButton();
         jButton28 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
         jButton30 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
         jButton32 = new javax.swing.JButton();
@@ -216,7 +215,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton21.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton21.setText("A");
+        jButton21.setText("P");
         jButton21.setFocusable(false);
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -225,7 +224,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton22.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton22.setText("A");
+        jButton22.setText("Q");
         jButton22.setFocusable(false);
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,7 +233,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton23.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton23.setText("A");
+        jButton23.setText("R");
         jButton23.setFocusable(false);
         jButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,7 +242,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton24.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton24.setText("A");
+        jButton24.setText("S");
         jButton24.setFocusable(false);
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,7 +251,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton25.setText("A");
+        jButton25.setText("T");
         jButton25.setFocusable(false);
         jButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -261,7 +260,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton26.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton26.setText("A");
+        jButton26.setText("U");
         jButton26.setFocusable(false);
         jButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -270,7 +269,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton27.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton27.setText("A");
+        jButton27.setText("V");
         jButton27.setFocusable(false);
         jButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -279,7 +278,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton28.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton28.setText("A");
+        jButton28.setText("W");
         jButton28.setFocusable(false);
         jButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -287,17 +286,8 @@ public class VentanaAhorcado extends javax.swing.JFrame {
             }
         });
 
-        jButton29.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton29.setText("A");
-        jButton29.setFocusable(false);
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
-            }
-        });
-
         jButton30.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton30.setText("A");
+        jButton30.setText("X");
         jButton30.setFocusable(false);
         jButton30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -306,7 +296,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton31.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton31.setText("A");
+        jButton31.setText("Y");
         jButton31.setFocusable(false);
         jButton31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -315,7 +305,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         });
 
         jButton32.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton32.setText("A");
+        jButton32.setText("Z");
         jButton32.setFocusable(false);
         jButton32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -328,12 +318,10 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1179, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(131, 131, 131)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -377,9 +365,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -396,7 +382,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
                                 .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 110, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -404,12 +390,12 @@ public class VentanaAhorcado extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(31, 31, 31)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 239, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(278, 278, 278)
+                        .addGap(143, 143, 143)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(135, 135, 135)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -443,9 +429,8 @@ public class VentanaAhorcado extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(298, Short.MAX_VALUE))
+                            .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(194, 194, 194))
         );
 
         pack();
@@ -547,10 +532,6 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         chequeaBoton((JButton)evt.getSource());
     }//GEN-LAST:event_jButton28ActionPerformed
 
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        chequeaBoton((JButton)evt.getSource());
-    }//GEN-LAST:event_jButton29ActionPerformed
-
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
         chequeaBoton((JButton)evt.getSource());
     }//GEN-LAST:event_jButton30ActionPerformed
@@ -617,7 +598,6 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
