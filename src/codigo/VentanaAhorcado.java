@@ -44,6 +44,10 @@ public class VentanaAhorcado extends javax.swing.JFrame {
                }
            }
            jLabel1.setText(palabraConGuiones);
+           if(!palabraConGuiones.contains("_")){
+               numeroFallos = -1;
+               dibujaImagen();
+           }
         }
         else{
             numeroFallos++;
@@ -56,6 +60,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     private void dibujaImagen(){
         String nombreIMG = "";
         switch(numeroFallos){
+            case -1: nombreIMG = "/IMG/acertasteTodo.png"; break;
             case 0: nombreIMG = "/IMG/ahorcado_fin.png"; break;
             case 1: nombreIMG = "/IMG/ahorcado_5.png"; break;
             case 2: nombreIMG = "/IMG/ahorcado_4.png"; break;
