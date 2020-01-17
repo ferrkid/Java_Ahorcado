@@ -18,7 +18,9 @@ import javax.swing.JButton;
 public class VentanaAhorcado extends javax.swing.JFrame {
     
     int numeroFallos = 0;
+    boolean partidaTerminada = false; // indica si la partida ha terminado.
     String palabraOculta = "CETYS";
+    
     
     
     
@@ -26,7 +28,8 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     // Este metodo recibe el boton que ha sido pulsado y procesa la letra que
     // tiene su etiqueta.
     private void chequeaBoton(JButton boton){
-        boton.setEnabled(false); 
+        if(!partidaTerminada){
+         boton.setEnabled(false); 
         chequeaLetra (boton.getText());
         
     }
@@ -50,13 +53,19 @@ public class VentanaAhorcado extends javax.swing.JFrame {
            if(!palabraConGuiones.contains("_")){
                numeroFallos = -1;
                dibujaImagen();
+               partidaTerminada = true;
            }
         }
+        
         else{
-            numeroFallos++;
-            dibujaImagen();
-            
-        }
+                numeroFallos++;
+                if(numeroFallos == 6){
+                partidaTerminada = true;
+                }
+                 dibujaImagen();
+                }
+        
+      
         
     }
     
@@ -103,6 +112,9 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         jLabel1.setText(auxiliar);
         
     }
+    
+    
+    
     
     private String eligePalabra (){
       String [] listaPalabras = {"HOLA", "VLADIKAKA","BORREGUITO","BABYYODA"};
